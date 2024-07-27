@@ -7,10 +7,12 @@
     <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
     {% endfor %}
     {% for item in site.data.settings.social %}
-    {% if item.style == "brand" %}  
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    {% if item.style == "brand" %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa-brands fa-{{ item.icon }}"
+        aria-hidden="true"></i></a>
     {% else %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}"
+        aria-hidden="true"></i></a>
     {% endif %}
     {% endfor %}
   </nav>
@@ -22,10 +24,11 @@
       {% endfor %}
       {% for item in site.data.settings.social %}
       {% if item.style == "brand" %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i></a>
-      aria-hidden="true"></i></a>
+      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa-brands fa-{{ item.icon }}"
+          aria-hidden="true"></i></a>
       {% else %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}"
+          aria-hidden="true"></i></a>
       {% endif %}
       {% endfor %}
     </div>
