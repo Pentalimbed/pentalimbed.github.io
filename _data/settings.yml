@@ -13,9 +13,13 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-  - { icon: "github", link: "https://github.com/Pentalimbed" }
-  - { icon: "patreon", link: "https://www.patreon.com/pentalimbedcat" }
-  - { icon: "coffee", link: "https://ko-fi.com/fivelimbedcat" }
+  - { icon: "github", style: "brand", link: "https://github.com/Pentalimbed" }
+  - {
+      icon: "patreon",
+      style: "brand",
+      link: "https://www.patreon.com/pentalimbedcat",
+    }
+  - { icon: "coffee", style: "normal", link: "https://ko-fi.com/fivelimbedcat" }
 # - {icon: 'instagram', link:  'https://instagram.com/paululele'}
 # - {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
 # - {icon: 'rss-square', link: 'feed.xml'}
