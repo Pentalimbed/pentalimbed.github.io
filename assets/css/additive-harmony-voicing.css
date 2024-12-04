@@ -1,0 +1,107 @@
+.keyboard {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1.0;
+    align-items: center;
+    justify-items: center;
+    gap: 3px;
+}
+
+.key-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition-duration: 0.1s;
+    gap: 10px;
+}
+
+.key-row-selected {
+    background-color: rgb(240, 240, 240);
+}
+
+.piano-key {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: medium;
+
+    border: 2px rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 0px;
+
+    width: 30%;
+
+    transition-duration: 0.1s;
+}
+
+.piano-key:hover {
+    background-color: lightskyblue;
+}
+
+.white-key {
+    background-color: whitesmoke;
+    color: #1b1b1b;
+}
+
+.black-key {
+    background-color: #1b1b1b;
+    color: whitesmoke;
+}
+
+.piano-key-highlight {
+    background-color: lightskyblue;
+}
+
+.piano-key-warning {
+    background-color: lightcoral;
+}
+
+.anchor-symbol {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: medium;
+    width: 30px;
+    color: #1b1b1b;
+    transition-duration: 0.1s;
+    text-align: center;
+}
+
+.anchor-symbol:hover {
+    color: lightskyblue;
+}
+
+.anchor-symbol .tooltip {
+    visibility: hidden;
+    opacity: 0;
+
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: small;
+    text-align: center;
+
+    background-color: white;
+    color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    padding: 5px;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    transition-duration: 0.1s;
+}
+
+.anchor-symbol:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.first-order {
+    color: darkolivegreen;
+}
+
+.second-order {
+    color: steelblue;
+}
+
+.non-chord {
+    color: firebrick;
+}

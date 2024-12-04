@@ -8,6 +8,7 @@ google-ID: ""
 
 menu:
   - { name: "Blogs", url: "blogs" }
+  - { name: "Tools", url: "tools" }
   - { name: "About", url: "about" }
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
