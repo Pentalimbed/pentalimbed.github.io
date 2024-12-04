@@ -29,7 +29,7 @@ To put it simply, while the Parisian modernist composers have used a plethora of
 6. No adjacent tones are more than an octave apart.
 7. Ultimately, it all depends on the context.
 
-I am sure these are the gist of Blättler's idea. For more detailed and nuanced description with examples, please refer to the original paper.
+I believe these are the gist of Blättler's idea. For more detailed and nuanced description with examples, please refer to the original paper.
 
 # The Tool
 
