@@ -1,15 +1,12 @@
 ---
-layout: post
-title: "Anchor Structure Finder"
-author: "五脚猫/FiveLimbedCat"
-categories: tools
-tags: [tools, music, music theory]
-image: ahv-thumb.png
-include_scripts: [
-  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
-  # "https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js",
-  "/assets/js/chord-voicing.js"
-]
+title: "Anchor Structures Finder"
+classes: wide
+categories:
+  - Posts
+tags:
+  - tools
+  - music
+  - music theory
 ---
 
 # Anchor Structures and Adorning Notes
@@ -47,9 +44,11 @@ I didn't add an exception for bass-9th structures, nor did I enforce rule 6. So 
 <br>
 
 <div id='additive-harmony-voicing' class='tool-container'>
-  <link rel="stylesheet" href="assets/css/additive-harmony-voicing.css">
+  <link rel="stylesheet" href="/assets/css/additive-harmony-voicing.css">
   <div id="keyboard" class="keyboard">  </div>
 </div>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+<script async src="/assets/js/tools/chord-voicing.js" charset="utf-8"></script>
 
 <br>
 
