@@ -4,7 +4,7 @@ const flat = "\u{266d}";
 let note_names = ["C", `C${sharp}/D${flat}`, "D", `D${sharp}/E${flat}`, "E", "F", `F${sharp}/G${flat}`, "G", `G${sharp}/A${flat}`, "A", `A${sharp}/B${flat}`, "B"];
 let note_is_white = [true, false, true, false, true, true, false, true, false, true, false, true];
 
-const n_notes = 25;
+const n_notes = 37;
 let note_selected = Array(n_notes).fill(false);
 note_selected[0] = true;
 
