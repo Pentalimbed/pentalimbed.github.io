@@ -12,6 +12,12 @@ include_scripts: [
 ]
 ---
 
+# Description
+
+TODO
+
+# The Tool
+
 <div id='additive-harmony-voicing' class='tool-container'>
   <link rel="stylesheet" href="assets/css/additive-harmony-voicing.css">
   <div id="keyboard" class="keyboard">  </div>

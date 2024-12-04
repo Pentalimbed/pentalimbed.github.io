@@ -36,7 +36,7 @@ class AnchorPattern {
 }
 const anchor_patterns = [
     new AnchorPattern(0, true, [7], 0, "root-position consonant triads"),
-    new AnchorPattern(1, false, [10], 0, "augmented-sixth chords and all root-position seventh chords save for major-seventh chords"),
+    new AnchorPattern(1, false, [10], 0, "augmented-sixth chords \& all root-position seventh chords save for major-seventh chords"),
     new AnchorPattern(2, true, [11], 0, "root-position major-seventh chords"),
 
     new AnchorPattern(3, true, [3, 8], 8, "first-inversion major triad"),
@@ -133,7 +133,7 @@ function updateAnalysis() {
             anchor_symbol.setAttribute("highlights", highlights);
             anchor_symbol.onmouseover = function (links) {
                 return function (event) {
-                    var highlight_type = this.classList.includes('non-chord') ? "piano-key-warning" : "piano-key-highlight";
+                    var highlight_type = this.classList.contains('non-chord') ? "piano-key-warning" : "piano-key-highlight";
                     for (const idx of links) {
                         var button = document.getElementById(`button-${idx}`);
                         button.classList.add(highlight_type);
@@ -142,7 +142,7 @@ function updateAnalysis() {
             }(highlights);
             anchor_symbol.onmouseout = function (links) {
                 return function (event) {
-                    var highlight_type = this.classList.includes('non-chord') ? "piano-key-warning" : "piano-key-highlight";
+                    var highlight_type = this.classList.contains('non-chord') ? "piano-key-warning" : "piano-key-highlight";
                     for (const idx of links) {
                         var button = document.getElementById(`button-${idx}`);
                         button.classList.remove(highlight_type);
