@@ -7,6 +7,7 @@ tags:
   - tools
   - music
   - music theory
+last_modified_at: 2024-12-04T20:59:32Z
 ---
 
 # Anchor Structures and Adorning Notes
