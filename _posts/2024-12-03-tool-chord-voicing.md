@@ -1,5 +1,6 @@
 ---
 title: "Anchor Structures Finder"
+comments: true
 classes: wide
 categories:
   - Posts

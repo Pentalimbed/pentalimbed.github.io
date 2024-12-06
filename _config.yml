@@ -52,9 +52,9 @@ comments:
     category_name: "Giscus Comments" # Full text name of the category
     category_id: "DIC_kwDOMan9pM4Ck9Ix" # Shown during giscus setup at https://giscus.app
     discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+    reactions_enabled: # '1' for enabled (default), '0' for disabled
     theme: "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict: 1 # 1 for enabled, 0 for disabled (default)
+    strict: # 1 for enabled, 0 for disabled (default)
     input_position: "top" # "top", "bottom" # The comment input box will be placed above or below the comments
     emit_metadata: 0 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
     lang: # "en" (default)
@@ -318,6 +318,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true
